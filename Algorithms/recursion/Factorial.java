@@ -1,5 +1,5 @@
 /**
-* time: O(n) Quadratic Time
+* time: O(n) Quadratic Time 
 */
 public class Factorial {
 

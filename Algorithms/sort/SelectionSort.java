@@ -1,7 +1,7 @@
 /**
 * UnStable sort
 * time: O(n^2) Quadratic Time
-* in-place Algorithm
+* in-place Algorithm 
 */
 public class SelectionSort{
 

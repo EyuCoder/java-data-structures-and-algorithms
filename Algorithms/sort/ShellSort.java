@@ -1,7 +1,7 @@
 /**
 * UnStable sort
 * time: O(n^2) Quadratic Time(could be better depending on the Gap)
-* in-place Algorithm
+* in-place Algorithm 
 */
 public class ShellSort{
 
