@@ -5,9 +5,7 @@
 */
 public class InsertionSort{
 
-	public static void main(String[] args) {
-		int[] arr = {23, 435, 5,  6, 88, 99, -32, 4, -665};
-
+	public static int[] insertionSort(int[] arr){
 		for (int i = 1; i < arr.length; i++) {
 
 			int newElement = arr[i];
@@ -25,7 +23,14 @@ public class InsertionSort{
 			arr[j] = newElement;
 		}
 
-		for(int item: arr){
+		return arr;
+	}
+
+	public static void main(String[] args) {
+		int[] arr = {23, 435, 5,  6, 88, 99, -32, 4, -665};
+		int[] sortedArray = insertionSort(arr);
+
+		for(int item: sortedArray){
 			System.out.println(item);	
 		} 
 	}

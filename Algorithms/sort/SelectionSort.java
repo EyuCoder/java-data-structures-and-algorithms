@@ -15,9 +15,7 @@ public class SelectionSort{
 		arr[j] = temp;	
 	}
 
-	public static void main(String[] args) {
-		int[] arr = {23, 43, 43, 21, 2, 4, 77, 9, 0, 788, 7};
-
+	public static int[] selectionSort(int [] arr){
 		for(int i = arr.length - 1; i > 0; i--){
 			
 			int largest = 0;
@@ -29,10 +27,16 @@ public class SelectionSort{
 			
 			swap(arr, largest, i);	
 		}
-		
-		for(int item: arr){
-			System.out.println(item);
-		} 
-			
+
+		return arr;
+	}
+
+	public static void main(String[] args) {
+		int[] arr = {23, 43, 43, 21, 2, 4, 77, 9, 0, 788, 7};
+		int[] sortedArray = selectionSort(arr);
+
+		for(int item: sortedArray){
+			System.out.println(item);	
+		}
 	}
 }

@@ -1,3 +1,6 @@
+/**
+* time: O(n) Quadratic Time
+*/
 public class Factorial {
 
 	public static int recursiveFactorial(int num){

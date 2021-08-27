@@ -15,9 +15,7 @@ public class BubbleSort{
 		arr[j] = temp;	
 	}
 
-	public static void main(String[] args) {
-		int[] arr = {23, 43, 43, 21, 2, 4, 77, 9, 0, 788, 7};
-
+	public static int[] bubbleSort(int[] arr){
 		for(int i = arr.length - 1; i > 0 - 1; i--){
 
 			for(int j = 0; j < i; j++){
@@ -26,10 +24,17 @@ public class BubbleSort{
 				}			
 			}		
 		}
+
+		return arr;
+	}
+
+	public static void main(String[] args) {
 		
-		for(int item: arr){
+		int[] arr = {23, 43, 43, 21, 2, 4, 77, 9, 0, 788, 7};
+		int[] sortedArray = bubbleSort(arr);
+
+		for(int item: sortedArray){
 			System.out.println(item);	
-		} 
-			
+		}	
 	}
 }
