@@ -22,7 +22,7 @@ public class Factorial {
 
 	public static void main(String[] args) {
 
-		System.out.println(iterativeFactorial(-3));
-		System.out.println(recursiveFactorial(-3));
+		System.out.println(iterativeFactorial(3));
+		System.out.println(recursiveFactorial(3));
 	}
 }
