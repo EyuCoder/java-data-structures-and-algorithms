@@ -3,6 +3,8 @@
  * time: O(nlogn) loglinear complexity
  * not an in-place Algorithm
  */
+import java.util.Arrays;
+
 public class MergeSort {
 
     public static void merge(int[] leftArray, int[] rightArray, int[] arr, int leftSize, int rightSize) {
@@ -30,18 +32,8 @@ public class MergeSort {
         }
 
         int mid = len / 2;
-        int[] leftArray = new int[mid];
-        int[] rightArray = new int[len - mid];
-
-        int k = 0;
-        for (int i = 0; i < len; ++i) {
-            if (i < mid) {
-                leftArray[i] = arr[i];
-            } else {
-                rightArray[k] = arr[i];
-                k = k + 1;
-            }
-        }
+        int[] leftArray = Arrays.copyOfRange(arr, 0, mid);
+        int[] rightArray = Arrays.copyOfRange(arr, mid, len);
 
         mergeSort(leftArray, mid);
         mergeSort(rightArray, len - mid);
