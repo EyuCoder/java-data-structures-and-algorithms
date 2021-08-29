@@ -1,5 +1,5 @@
 /**
- * UnStable sort
+ * UnStable sort implementation
  * time: O(n) Linear Time
  * Not in-place Algorithm
  * use only when the range of values is reasonable
