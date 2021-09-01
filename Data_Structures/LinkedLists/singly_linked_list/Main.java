@@ -1,3 +1,10 @@
+/**
+ * create new node: O(1) constant time
+ * remove node from head: O(1) constant time
+ * remove node from tail: O(n) Linear time
+ * remove node from middle: O(n) Linear time
+ * search: O(n) Linear time
+ **/
 public class Main{
 
 	public static void main(String[] args) {
@@ -16,6 +23,5 @@ public class Main{
 		linkedList.removeFromHead();
 		System.out.println(linkedList.getSize());
 		linkedList.printList();
-		System.out.println(linkedList.getSize());
 	}
 }
