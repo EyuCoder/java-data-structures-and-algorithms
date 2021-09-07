@@ -1,4 +1,6 @@
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+
 class TwoSum {
     public static int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -11,7 +13,6 @@ class TwoSum {
             }
         }
         return null;
-    }
     }
 
     public static void main(String[] args) {
