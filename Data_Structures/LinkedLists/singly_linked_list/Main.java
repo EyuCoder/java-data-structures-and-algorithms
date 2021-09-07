@@ -1,5 +1,6 @@
 /**
- * create new node: O(1) constant time
+ * insert node at head: O(1) constant time
+ * insert node at tail: O(n) constant time
  * remove node from head: O(1) constant time
  * remove node from tail: O(n) Linear time
  * remove node from middle: O(n) Linear time
@@ -8,14 +9,14 @@
 public class Main{
 
 	public static void main(String[] args) {
-		StudentLinkedList linkedList = new StudentLinkedList();
+		StudentSinglyLinkedList linkedList = new StudentSinglyLinkedList();
 		System.out.println(linkedList.isEmpty());
 
 		linkedList.printList();
-		linkedList.append(99, "Joel");
-		linkedList.append(88, "jhon");
-		linkedList.append(77, "betty");
-		linkedList.append(55, "sally");
+		linkedList.prepend(99, "Joel");
+		linkedList.prepend(88, "jhon");
+		linkedList.prepend(77, "betty");
+		linkedList.prepend(55, "sally");
 
 		System.out.println(linkedList.getSize());
 

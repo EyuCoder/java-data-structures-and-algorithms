@@ -1,9 +1,9 @@
-public class StudentLinkedList{
+public class StudentSinglyLinkedList{
 
 	private StudentNode head;
 	private int size;
 
-	public void append(int grade, String name){
+	public void prepend(int grade, String name){
 		StudentNode node = new StudentNode(grade, name);
 		node.setNext(head);
 		head = node;
