@@ -1,11 +1,11 @@
 /**
  * LIFO (last in first out)
- * time: O(1) => peek, push, pop (push could be O(n) if resize is needed)
+ * time: O(1) => peek, push, pop
  **/
 public class Main{
 
 	public static void main(String[] args) {
-		ArrayStack stack = new ArrayStack(5);
+		LinkedListStack stack = new LinkedListStack();
 
 		stack.push("stack");
 		stack.push("a");
@@ -16,7 +16,7 @@ public class Main{
 		stack.printStack();
 
 		System.out.println("pop: " + stack.pop());
-		System.out.println("peek: " +stack.peek());
+		System.out.println("peek: " + stack.peek());
 
 		stack.printStack();
 	}
