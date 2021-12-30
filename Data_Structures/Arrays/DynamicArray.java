@@ -1,4 +1,5 @@
-import java.io.*;
+package data_structures.arrays;
+
 import java.util.*;
 
 public class DynamicArray {

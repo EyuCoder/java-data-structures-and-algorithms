@@ -1,3 +1,5 @@
+package data_structures.arrays;
+
 /**
  * Time Complexity: O(2n) Linear time
  * Space Complexity: O(1) constant time

@@ -1,4 +1,4 @@
-//merge sorted Array
+package data_structures.arrays;//merge sorted Array
 
 class MergeSortedArrays {
 

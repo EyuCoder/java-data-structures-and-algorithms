@@ -1,4 +1,5 @@
-import java.util.LinkedList;
+package data_structures.arrays;
+
 public class ReverseLinkedList{
 	static Node head;
 
