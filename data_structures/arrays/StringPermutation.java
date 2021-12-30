@@ -27,6 +27,6 @@ public class StringPermutation{
 	public static void main(String[] args) {
 		// hashMap
 		System.out.println(isPermutationOf("abc", "acdehrkwb"));
-		System.out.println(isPermutationOf("abc", "bcx"));
+		System.out.println(isPermutationOf("abcx", "bcx"));
 	}
 }

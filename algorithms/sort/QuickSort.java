@@ -1,7 +1,7 @@
 package algorithms.sort;
 /*
  * UnStable sort
- * time: O(nlogn) loglinear complexity.
+ * time: O(n log n) log linear complexity.
  * In the worst case, it makes O(n2) comparisons, though this behavior is rare.
  * in-place Algorithm
  */

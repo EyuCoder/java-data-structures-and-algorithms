@@ -1,5 +1,7 @@
 package data_structures.arrays;//merge sorted Array
 
+import java.util.Arrays;
+
 class MergeSortedArrays {
 
     public static void main(String[] args) {
@@ -30,6 +32,6 @@ class MergeSortedArrays {
             length--;
         }
 
-        System.out.println(mergedArray);
+        System.out.println(Arrays.toString(mergedArray));
     }
 }

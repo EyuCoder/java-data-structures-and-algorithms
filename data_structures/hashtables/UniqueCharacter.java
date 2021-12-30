@@ -1,7 +1,9 @@
-package data_structures.hashtables;/*
+package data_structures.hashtables;
+/*
  * Time Complexity: O(n) Linear time
  * Space Complexity: O(1) constant time
  **/
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -24,7 +26,7 @@ public class UniqueCharacter {
 
     static boolean isUniqueChars2(String str) {
         if (str.length() > 128) return false;
-        Map map = new HashMap<Integer, Boolean>(128);
+        Map<Integer, Boolean> map = new HashMap<>(128);
 
         for (int i = 0; i < str.length(); i++) {
             int val = str.charAt(i);

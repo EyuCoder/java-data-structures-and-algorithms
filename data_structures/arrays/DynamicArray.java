@@ -7,9 +7,9 @@ public class DynamicArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        ArrayList<ArrayList<Integer>> lists = new ArrayList<ArrayList<Integer>>(n);
+        ArrayList<ArrayList<Integer>> lists = new ArrayList<>(n);
         for (int i = 0; i < n; i++) {
-            lists.add(new ArrayList<Integer>());
+            lists.add(new ArrayList<>());
         }
         int q = sc.nextInt();
         int lastans = 0;

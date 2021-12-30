@@ -36,7 +36,7 @@ public class StudentSinglyLinkedList{
 		StudentNode current = head;
         System.out.print("HEAD -> ");
         while (current != null) {
-            System.out.print(current.toString());
+            System.out.print(current);
             System.out.print(" -> ");
             current = current.getNext();
         }

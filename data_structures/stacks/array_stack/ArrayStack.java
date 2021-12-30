@@ -3,7 +3,7 @@ package data_structures.stacks.array_stack;
 import java.util.EmptyStackException;
 
 public class ArrayStack{
-	private String[] stack;
+	private final String[] stack;
 	private int top;
 
 	public ArrayStack(int size){

@@ -17,10 +17,6 @@ public class InsertionSort {
 
                 arr[j] = arr[j - 1];
 
-                // for(int item: arr){
-                // 	System.out.print(item + ", ");
-                // }
-                // System.out.println();
             }
             arr[j] = newElement;
         }

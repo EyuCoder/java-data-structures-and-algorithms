@@ -19,8 +19,9 @@ class TwoSum {
 
     public static void main(String[] args) {
         int[] result = twoSum(new int[]{3, 2, 4}, 6);
+        assert result != null;
         for (int item: result) {
-            System.out.print(item);       
+            System.out.print(item);
         }
     }
 }

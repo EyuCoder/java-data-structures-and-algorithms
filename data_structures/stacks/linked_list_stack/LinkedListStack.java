@@ -13,13 +13,11 @@ public class LinkedListStack{
 
 	public void push(String value){
 		Node newNode = new Node(value);
-		if (size == 0) {
-            head = newNode;
-        } else {
-            newNode.next = head;
-            head = newNode;
-        }
-        size++;
+		if (size != 0) {
+			newNode.next = head;
+		}
+		head = newNode;
+		size++;
 	}
 
 	public String pop(){

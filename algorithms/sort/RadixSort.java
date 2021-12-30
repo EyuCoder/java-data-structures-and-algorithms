@@ -6,7 +6,7 @@ package algorithms.sort;
  * depending on which algorithm we use it can be in-place Algorithm
  * use only when the range of values is reasonable
  */
-public class RadixSort{
+public class  RadixSort{
 
     public static void radixSort(int[] arr, int radix, int width) {
         for(int i = 0; i < width; i++){
@@ -35,9 +35,7 @@ public class RadixSort{
         }
 
         //copy array to the original array
-        for (int i = 0; i < len; i++) {
-            input[i] = tempArray[i];
-        }
+        System.arraycopy(tempArray, 0, input, 0, len);
     }
 
     //returns digit at specified position

@@ -1,7 +1,7 @@
 package data_structures.arrays;
 
 public class ReverseLinkedList{
-	static Node head;
+	Node head;
 
 	static class Node{
 		int value;
@@ -13,9 +13,9 @@ public class ReverseLinkedList{
 		}
 	}
 
-	static Node reverse(Node head){
+	Node reverse(Node head){
         Node prev = null;
-        Node next = null;
+        Node next;
         while (head != null) {
             next = head.next;
             head.next = prev;
@@ -42,7 +42,7 @@ public class ReverseLinkedList{
         list.head.next.next.next = new Node(-99);
         list.head.next.next.next.next = new Node(12);
         printList(list.head);
-        list.head = list.reverse(head);
+        list.head = list.reverse(list.head);
         printList(list.head);
 	}
 }

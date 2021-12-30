@@ -1,6 +1,7 @@
-package algorithms.sort; /**
+package algorithms.sort;
+/*
  * Stable sort
- * time: O(nlogn) loglinear complexity
+ * time: O(n log n) log linear complexity
  * not an in-place Algorithm
  */
 import java.util.Arrays;

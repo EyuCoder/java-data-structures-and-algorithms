@@ -11,8 +11,8 @@ public class CountingSort{
     public static void countingSort(int[] intArray, int min, int max){
         int[] countArray = new int[(max - min) + 1];
 
-        for(int i = 0; i < intArray.length; i++) {
-            countArray[intArray[i] - min]++;
+        for (int k : intArray) {
+            countArray[k - min]++;
         }
 
         int j = 0;
