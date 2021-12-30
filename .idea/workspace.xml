@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f1dd2983-80ad-4208-950b-66328d861933" name="Default Changelist" comment=":zap: iml">
+      <change beforePath="$PROJECT_DIR$/algorithms/recursion/Factorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/search/BinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/sort/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/sort/CountingSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/sort/InsertionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/sort/MergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/sort/QuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/sort/RadixSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/sort/SelectionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms/sort/ShellSort.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1wzkscF7beAH2jXUtfNlkONunME" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data_structures/queues/array_queue" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WORK\DSA\Java-Data-Structures-and-Algorithms\data_structures\queues\array_queue" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WORK\DSA\Java-Data-Structures-and-Algorithms" />
+      <recent name="D:\WORK\DSA\Java-Data-Structures-and-Algorithms\out\production\Java-Data-Structures-and-Algorithms" />
+      <recent name="D:\WORK\DSA\Java-Data-Structures-and-Algorithms\Data_Structures\LinkedLists" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyQueue">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Java-Data-Structures-and-Algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Java-Data-Structures-and-Algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data_structures.queues.array_queue.MyQueue" />
+      <module name="Java-Data-Structures-and-Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data_structures.queues.array_queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MyQueue" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyQueue" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1dd2983-80ad-4208-950b-66328d861933" name="Default Changelist" comment="" />
+      <created>1629469013941</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629469013941</updated>
+    </task>
+    <task id="LOCAL-00001" summary=":tada: init commit">
+      <created>1630073215331</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1630073215331</updated>
+    </task>
+    <task id="LOCAL-00002" summary=":tada: init commit">
+      <created>1630137918787</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630137918787</updated>
+    </task>
+    <task id="LOCAL-00003" summary=":zap: array queque">
+      <created>1640891702032</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1640891702032</updated>
+    </task>
+    <task id="LOCAL-00004" summary=":zap: iml">
+      <created>1640891979888</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640891979888</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=":tada: init commit" />
+    <MESSAGE value=":zap: queque" />
+    <MESSAGE value=":zap: array queque" />
+    <MESSAGE value=":zap: iml" />
+    <option name="LAST_COMMIT_MESSAGE" value=":zap: iml" />
+  </component>
+</project>
