@@ -1,4 +1,4 @@
-# Java Data Structures and algorithms
+# Data Structures and Algorithms in JAVA
 
 
 ### Data Structures
