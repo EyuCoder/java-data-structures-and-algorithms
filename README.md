@@ -8,7 +8,7 @@
 - [x] [HashTables](data_structures/hashtables)
 - [x] [Queues](data_structures/queues)
 - [x] [Stacks](data_structures/stacks)
-- [ ] [Graphs}()
+- [ ] [Graphs]()
 - [ ] [Trees]()
 
 ### Algorithms
