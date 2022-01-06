@@ -24,7 +24,7 @@
 
 2. #### Searching
     1. - [x] [BinarySearch](algorithms/search/BinarySearch.java)
-    2. - [ ] [LinearSearch]()
+    2. - [x] [LinearSearch](algorithms/search/LinearSearch.java)
 
 3. #### Recursion
     1. - [x] [Factorial](algorithms/recursion/Factorial.java)
