@@ -6,10 +6,11 @@
 - [x] [Arrays](data_structures/arrays)
 - [x] [LinkedLists](data_structures/linked_lists)
 - [x] [HashTables](data_structures/hashtables)
-- [x] [Queues](data_structures/queues)
 - [x] [Stacks](data_structures/stacks)
-- [ ] [Graphs]()
+- [x] [Queues](data_structures/queues)
+- [x] [Heaps](data_structures/heaps)
 - [x] [Trees](data_structures/trees)
+- [ ] [Graphs]()
 
 ### Algorithms
 1. #### Sorting
