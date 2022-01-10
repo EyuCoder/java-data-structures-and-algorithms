@@ -10,7 +10,7 @@
 - [x] [Queues](data_structures/queues)
 - [x] [Heaps](data_structures/heaps)
 - [x] [Trees](data_structures/trees)
-- [ ] [Graphs]()
+- [x] [Graphs]()
 
 ### Algorithms
 1. #### Sorting
