@@ -11,6 +11,7 @@
 - [x] [Heaps](data_structures/heaps)
 - [x] [Trees](data_structures/trees)
 - [x] [Graphs](data_structures/graphs)
+- [ ] [Trie](data_structures/tries)
 
 ### Algorithms
 1. #### Sorting
