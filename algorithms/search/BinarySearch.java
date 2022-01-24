@@ -1,7 +1,7 @@
 package algorithms.search;
 
 /**
- * Time Complexity: O(log n) Linear time
+ * Time Complexity: O(log n) Logarithmic time
  * Space Complexity: O(1) constant time
  **/
 public class BinarySearch {
